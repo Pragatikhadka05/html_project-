@@ -2,75 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Pragati Khadka - Personal Portfolio</title>
 </head>
 <body>
 
-<header>
-    <h1>Pragati Khadka</h1>
+    <header>
+        <h1>Pragati Khadka</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <main>
 
-<main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Photo of Pragati Khadka" width="200">
+            <p>Hello, I am Pragati Khadka, a BIT student learning web development.</p>
+        </section>
 
-    <section id="about">
-        <h2>About Me</h2>
+        <section id="skills">
+            <h2>Skills</h2>
+            <dl>
+                <dt>Languages</dt>
+                <dd>HTML5, CSS3</dd>
+                <dt>Tools</dt>
+                <dd>Git, GitHub, VS Code</dd>
+            </dl>
+        </section>
 
-        <img src="images/profile.jpg" alt="My Profile Picture" width="150">
+        <section id="projects">
+            <h2>Projects</h2>
 
-        <p>
-            Hello my name is Pragati Khadka and I am a BIT student. Currently i am studying at MIT college. I enjoy learning web development and programming.
-            I like creating simple websites and improving my technical skills.
-        </p>
-    </section>
+            <article>
+                <h3>Portfolio Project</h3>
+                <p>My first portfolio project built with semantic HTML5.</p>
+                <a href="https://github.com/Pragatikhadka05/html_project-/blob/main/portfolio" target="_blank">View on GitHub</a>
+            </article>
 
-    <section id="skills">
-        <h2>Skills</h2>
+            <article>
+                <h3>Second Project</h3>
+                <p>Description of your second project goes here.</p>
+                <a href="https://github.com/Pragatikhadka05/second-repo" target="_blank">View on GitHub</a>
+            </article>
 
-        <dl>
-            <dt>HTML</dt>
-            <dd>Basic webpage development.</dd>
-
-            <dt>Java</dt>
-            <dd>Object-oriented programming.</dd>
-
-            <dt>SQL</dt>
-            <dd>Database management.</dd>
-        </dl>
-    </section>
+        </section>
 
         <section id="contact">
-        <h2>Contact</h2>
+            <h2>Contact</h2>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
 
-        <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
 
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message"></textarea><br><br>
+    </main>
 
-            <button type="submit">Submit</button>
-
-        </form>
-    </section>
-
-</main>
-
-<footer>
-    <p>© 2026 Pragati Khadka</p>
-</footer>
+    <footer>
+        <p>&copy; 2026 Pragati Khadka</p>
+    </footer>
 
 </body>
 </html>
