@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+<header>
+    <h1>Pragati Khadka</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <img src="images/profile.jpg" alt="My Profile Picture" width="150">
+
+        <p>
+            Hello my name is Pragati Khadka and I am a BIT student. Currently i am studying at MIT college. I enjoy learning web development and programming.
+            I like creating simple websites and improving my technical skills.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <dl>
+            <dt>HTML</dt>
+            <dd>Basic webpage development.</dd>
+
+            <dt>Java</dt>
+            <dd>Object-oriented programming.</dd>
+
+            <dt>SQL</dt>
+            <dd>Database management.</dd>
+        </dl>
+    </section>
+
+        <section id="contact">
+        <h2>Contact</h2>
+
+        <form>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Pragati Khadka</p>
+</footer>
+
+</body>
+</html>
