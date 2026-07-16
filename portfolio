@@ -11,15 +11,11 @@
 
 <header>
 
-<center>
-
 <h1>🌐 My Portfolio</h1>
 
 <h2>Pragati Khadka</h2>
 
 <p>BIT Student | Model Institute of Technology</p>
-
-</center>
 
 <hr>
 
@@ -76,7 +72,7 @@ Apart from academics, I enjoy 🎮 playing online games and
 
 <h2>🎓 Education</h2>
 
-<table border="1">
+<table>
 
 <caption>Educational Qualifications</caption>
 
